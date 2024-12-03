@@ -1,0 +1,143 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Encabezado */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b4bdc2; /* Fondo oscuro */
+    padding: 10px 20px;
+    }
+
+.logo img {
+    height: 80px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    font-family:cursive;
+    }
+    
+    .nav a {
+    color: rgb(0, 0, 0); /* Color de texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 16px;
+    }
+    
+    .nav a:hover {
+    color: #ee2323; /* Color al pasar el mouse */
+    }
+
+/* Sección de certificados */
+.seccion-certificados {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.seccion-certificados h2 {
+    font-size: 30px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.seccion-certificados p {
+    font-size: 18px;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+}
+
+.seccion-certificados ul {
+    list-style-type: square;
+    padding: 0;
+    margin: 0 auto 30px;
+    max-width: 600px;
+    text-align: left;
+}
+
+.seccion-certificados li {
+    font-size: 16px;
+    color: #34495e;
+    margin: 5px 0;
+}
+
+.imagen-certificados img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Sección de galería */
+.seccion-galeria {
+    padding: 50px 20px;
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+.seccion-galeria h2 {
+    font-size: 30px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.seccion-galeria p {
+    font-size: 18px;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+}
+
+.galeria-imagenes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    justify-items: center;
+}
+
+.galeria-imagenes img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.galeria-imagenes img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+
+    padding: 29px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.redes_sociales {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.redes_sociales img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.redes_sociales img:hover {
+    transform: scale(1.2);
+}
